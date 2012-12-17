@@ -1,0 +1,13 @@
+
+
+
+# DOMAIN_NAME
+<VirtualHost *:80>
+    ServerAdmin adrian@lessrain.co.uk
+    DocumentRoot /home/adrian/Workspace/DOMAIN_NAME/public/
+    ServerName DOMAIN_NAME.localhost
+    ServerAlias www.DOMAIN_NAME.localhost
+    ErrorLog /var/log/httpd/DOMAIN_NAME-apache-error_log
+    CustomLog /var/log/httpd/DOMAIN_NAME-access_log common
+</VirtualHost>
+
